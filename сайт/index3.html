@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kessoku Band</title>
+    <link
+    rel="stylesheet"
+    href="index.css"
+    />
+    <link rel="icon" href="https://i.pinimg.com/736x/c1/89/9c/c1899c240ba435fdab205b47d87714c0.jpg" />
+</head>
+
+<body>
+    <header id="#header" class="header">
+        <div class="overlay">
+            <h1 id="up" class="header-title"> Kessoku Band</h1>
+        </div>
+    </header>
+    <header class="second-header">
+        <div class="second-overlay">
+            <h1 class="second-header-title">Guitar, loneliness and blue planet</h1>
+    </header>
+
+    <header class="navigation">
+        <nav>
+            <ul>
+                <li> <a href="index.html#header" target="_self" <u>Главная</u></a> </li>
+                <li> <a href="index2.html">Дискография </a> </li>
+                <li> <a href="index3.html">Жгут</a> </li>
+                <li> <a href="passport.html">Паспорт</a> </li>
+                <li> <a href="index4.html">Билеты</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h3 class="course-title">Решение алгоритмической задачи</h3>
+
+    <body>
+
+        <p id="task_content">Принадлежит ли целое X диапазону A-B?</p>
+        <p>Значение A: <span id="a">22</span></p>
+        <p>Значение B: <span id="b">20</span></p>
+        <p>Значение X: <span id="c">33</span></p>
+        <p id="verify">Оценить</p>
+
+        <p>Результат: <span id="result"></span></p>
+
+
+<script src="./js/abc.js"></script>
+<section>
+<h3 class="course-title">Отправка на удаленный сервер</h3>
+</section>
+<p name="formulation">Принадлежит ли целое X диапазону A-B? Если принадлежит - отправить все на сервер</p>
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+    <ul>
+        <li>Для поисковика:<input name="q" value="search"></li>
+        <li>Формулировка задачи 
+            <br><textarea cols="60" rows="4" id="task" name="formulation">Принадлежит ли целое С диапазону A-B? Если принадлежит - отправить все на сервер</textarea></li>
+        <li>a: <input id="a" name="a"  type="number" value="22"></li>
+        <li>b: <input id="b"  name="b" type="number" value="20"></li>
+        <li>x: <input id="c"  name="c" type="number" value="33"></li>
+        <li>Результат решения задачи: <input id="result" name=result" value="не определен"></li>
+        <li>действие 1: <input id="verify" type="button" value="Проверить"></li>
+        <li>действие 2: <input id="send" type="button" value="Отправить"></li>
+    </ul>
+</form>
+<script src="js/js/abc_server.js"></script>
+
+</body>
+</html>
